@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "Capote"
-  },
   "api": {
     "projectId": "5bpf80zx",
     "dataset": "production"
+  },
+  "project": {
+    "name": "Perg"
   },
   "plugins": [
     "@sanity/base",
