@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import Oddysey from "./svgs/OrbitOddysey.svg";
+import Oddysey from "./svgs/veit_schmidleitner.svg";
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
           </button>
         </div>
         <div className="z-20 w-1/3">
-          <div className="">
+          <div>
             <Link href="https://www.instagram.com/veit.schmidleitner/?hl=en">
               <Oddysey
                 target="_blank"
