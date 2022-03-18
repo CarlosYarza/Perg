@@ -1,13 +1,11 @@
 import Link from "next/link";
 
-import Oddysey from "./svgs/OrbitOddysey.svg";
-// import Oddysey from "../assets/oddysey.jpg";
-// const oddysey = require("../public/oddysey.jpg");
+import Oddysey from "./svgs/veit_schmidleitner.svg";
 
 const Hero = () => {
   return (
     <div className="bg-white">
-      <div className="z-30 mt-36 w-full ml-72 font-magistrat-light italic xs:text-transparent sm:text-black text-3xl filter invert  mix-blend-difference flex justify-center absolute">
+      <div className="z-30 mt-36 w-full pl-96 center hidden sm:flex font-magistrat-light italic xs:text-transparent sm:text-black text-3xl filter invert  mix-blend-difference flex justify-center absolute">
         <p>/website under construction</p>
       </div>
       <div className=" flex items-center justify-around relative ">
@@ -17,7 +15,7 @@ const Hero = () => {
           </button>
         </div>
         <div className="z-20 w-1/3">
-          <div className="">
+          <div>
             <Link href="https://www.instagram.com/veit.schmidleitner/?hl=en">
               <Oddysey
                 target="_blank"
