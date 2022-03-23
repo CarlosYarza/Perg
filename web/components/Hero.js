@@ -5,7 +5,7 @@ import Oddysey from "./svgs/veit_schmidleitner.svg";
 const Hero = () => {
   return (
     <div className="bg-white">
-      <div className="z-30 mt-36 w-full pl-96 center hidden sm:flex font-magistrat-light italic xs:text-transparent sm:text-black text-3xl filter invert  mix-blend-difference flex justify-center absolute">
+      <div className="hidden z-30 mt-36 w-full pl-96 center sm:flex font-magistrat-light italic xs:text-transparent sm:text-black text-3xl filter invert  mix-blend-difference flex justify-center absolute">
         <p>/website under construction</p>
       </div>
       <div className=" flex items-center justify-around relative ">
