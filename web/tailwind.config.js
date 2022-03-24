@@ -30,7 +30,10 @@ module.exports = {
         200: "50rem",
       },
       fontFamily: {
-        magistrat: ["magistrat", "sans-serif", "magistrat-italic"]
+        magistrat: ["magistrat", "sans-serif", "magistrat-italic"],
+      },
+      gridTemplateColumns: {
+        navbar: "1fr 5fr 1fr",
       },
     },
   },
