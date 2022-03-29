@@ -17,10 +17,9 @@ const Hero = () => {
         <div className="z-20 w-1/3">
           <div>
             <Link href="https://www.instagram.com/veit.schmidleitner/?hl=en">
-              <Oddysey
-                target="_blank"
-                className="w-full h-72 md:h-full cursor-pointer"
-              />
+              <a target="_blank">
+                <Oddysey className="w-full h-72 md:h-full cursor-pointer"/>
+              </a>
             </Link>
           </div>
         </div>
