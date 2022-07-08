@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
         <div className="z-20 w-1/3">
           <div>
-            <Link href="https://www.instagram.com/veit.schmidleitner/?hl=en">
+            <Link href="https://www.instagram.com/jaywestart/?hl=en">
               <a target="_blank">
                 <Image className="w-full h-72 md:h-full cursor-pointer"/>
               </a>
