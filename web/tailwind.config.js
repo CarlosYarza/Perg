@@ -29,6 +29,9 @@ module.exports = {
         100: "36rem",
         200: "50rem",
       },
+      top: {
+        mobile: "-8.5rem",
+      },
       fontFamily: {
         magistrat: ["magistrat", "sans-serif", "magistrat-italic"],
       },

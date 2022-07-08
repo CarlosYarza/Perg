@@ -3,7 +3,7 @@ import React from "react";
 export default function Background() {
   return (
 
-      <svg className="w-screen absolute z-10 overflow-hidden top-10" width="1616" height="950" viewBox="0 0 1616 995" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg className="w-screen absolute z-10 overflow-hidden -top-28 sm:top-10" width="1616" height="950" viewBox="0 0 1616 995" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="1616" height="995" fill="url(#pattern0)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
