@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import Image from "./svgs/Unknown 1.svg";
 import Oddysey from "./svgs/veit_schmidleitner.svg";
 
 const Hero = () => {
@@ -18,7 +18,7 @@ const Hero = () => {
           <div>
             <Link href="https://www.instagram.com/veit.schmidleitner/?hl=en">
               <a target="_blank">
-                <Oddysey className="w-full h-72 md:h-full cursor-pointer"/>
+                <Image className="w-full h-72 md:h-full cursor-pointer"/>
               </a>
             </Link>
           </div>
