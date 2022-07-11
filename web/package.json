@@ -23,6 +23,7 @@
   "devDependencies": {
     "@svgr/webpack": "^5.5.0",
     "autoprefixer": "^10.3.7",
+    "file-loader": "^6.2.0",
     "postcss": "^8.3.9",
     "tailwindcss": "^2.2.17"
   }
