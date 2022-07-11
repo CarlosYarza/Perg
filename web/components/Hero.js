@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Image from "./svgs/Unknown 1.svg";
-import Oddysey from "./svgs/veit_schmidleitner.svg";
+import Image from "next/image";
+
 
 const Hero = () => {
   return (
@@ -14,11 +14,11 @@ const Hero = () => {
             show
           </button>
         </div>
-        <div className="z-20 w-1/3">
+        <div className="z-20 w-1/3 flex justify-center">
           <div>
             <Link href="https://www.instagram.com/jaywestart/?hl=en">
               <a target="_blank">
-                <Image className="w-full h-72 md:h-full cursor-pointer"/>
+                <Image src="/clooud.png" alt="me" width="430" height="644" className=" cursor-pointer"/>
               </a>
             </Link>
           </div>
