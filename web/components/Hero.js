@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
         <div className="z-20 w-1/3 flex justify-center">
           <div>
-            <Link href="https://www.instagram.com/jaywestart/?hl=en">
+            <Link href="https://www.instagram.com/perg_634/?hl=en">
               <a target="_blank">
                 <Image src="/prg_group_22.svg" alt="me" width="430" height="644" className=" cursor-pointer"/>
               </a>
