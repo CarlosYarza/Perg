@@ -5,7 +5,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div className="bg-white">
-      <div className="hidden z-30 mt-36 w-full pl-96 center sm:flex font-magistrat-light italic xs:text-transparent sm:text-black text-3xl filter invert  mix-blend-difference flex justify-center absolute">
+      <div className="hidden z-30 mt-0 w-full pl-96 center sm:flex font-magistrat-light italic xs:text-transparent sm:text-black text-3xl filter invert  mix-blend-difference flex justify-center absolute">
         <p>/website under construction</p>
       </div>
       <div className=" flex items-center justify-around relative ">
@@ -18,7 +18,7 @@ const Hero = () => {
           <div>
             <Link href="https://www.instagram.com/jaywestart/?hl=en">
               <a target="_blank">
-                <Image src="/clooud.png" alt="me" width="430" height="644" className=" cursor-pointer"/>
+                <Image src="/prg_group_22.svg" alt="me" width="430" height="644" className=" cursor-pointer"/>
               </a>
             </Link>
           </div>
